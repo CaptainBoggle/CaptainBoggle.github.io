@@ -100,8 +100,8 @@ function init(){
   scene.add(particleSystem);
 
   var renderer = new THREE.WebGLRenderer();
-  renderer.setClearColor('rgb(255,182,193)');
-  renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.setClearColor('#ffb6c1');
+  renderer.setSize(window.innerWidth, window.innerHeight-200);
   document.getElementById("webgl").appendChild(renderer.domElement);
 
   update(renderer, scene, camera);
