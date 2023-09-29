@@ -57,14 +57,14 @@ function init(){
     text1.rotation.y = .2;
     text1.rotation.z = 0;
 
-    text2.position.x = -19;
+    text2.position.x = -17;
     text2.position.y = -10;
     text2.position.z = -60;
     text2.rotation.x = 0;
     text2.rotation.y = .2;
     text2.rotation.z = 0;
 
-    text3.position.x = -30;
+    text3.position.x = -28;
     text3.position.y = -15;
     text3.position.z = -60;
     text3.rotation.x = 0;
