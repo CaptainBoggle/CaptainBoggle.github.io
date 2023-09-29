@@ -50,23 +50,23 @@ function init(){
     text2 = new THREE.Mesh(geometry2, material);
     text3 = new THREE.Mesh(geometry3, material);
 
-    text1.position.x = -20;
+    text1.position.x = -13;
     text1.position.y = -5;
-    text1.position.z = -40;
+    text1.position.z = -60;
     text1.rotation.x = 0;
     text1.rotation.y = .2;
     text1.rotation.z = 0;
 
     text2.position.x = -15;
     text2.position.y = -10;
-    text2.position.z = -40;
+    text2.position.z = -60;
     text2.rotation.x = 0;
     text2.rotation.y = .2;
     text2.rotation.z = 0;
 
     text3.position.x = -24;
     text3.position.y = -15;
-    text3.position.z = -40;
+    text3.position.z = -60;
     text3.rotation.x = 0;
     text3.rotation.y = .2;
     text3.rotation.z = 0;
