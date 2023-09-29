@@ -70,7 +70,11 @@ function init(){
     text3.rotation.x = 0;
     text3.rotation.y = .2;
     text3.rotation.z = 0;
-
+if ((window.innerWidth / window.innerHeight) > 1) {
+	text3.position.z = -35;
+	text2.position.z = -35;
+	text1.position.z = -35;
+}
     scene.add(text1);
     scene.add(text2);
     scene.add(text3);
