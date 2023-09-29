@@ -66,7 +66,7 @@ function init(){
 
     text3.position.x = -28;
     text3.position.y = -15;
-    text3.position.z = -60;
+    text3.position.z = -63;
     text3.rotation.x = 0;
     text3.rotation.y = .2;
     text3.rotation.z = 0;
